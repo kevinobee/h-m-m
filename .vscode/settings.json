@@ -1,6 +1,13 @@
 {
     "cSpell.words": [
+        "klipper",
         "libonig",
-        "mbstring"
+        "mbstring",
+        "nadrad",
+        "nixos",
+        "nixpkgs",
+        "pkgs",
+        "xclip",
+        "xsel"
     ]
 }
