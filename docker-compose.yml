@@ -1,0 +1,12 @@
+services:
+  hmm:
+    container_name: hmm
+    build: .
+    image: hmm
+    stdin_open: true
+    tty: true
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - .:/app/
+      - /tmp/.X11-unix:/tmp/.X11-unix
